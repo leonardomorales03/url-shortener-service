@@ -34,3 +34,6 @@ logs/
 
 # Application
 application-local.properties
+
+# Kiro Specs
+.kiro/specs/
