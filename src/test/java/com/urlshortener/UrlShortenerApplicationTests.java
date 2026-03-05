@@ -1,0 +1,18 @@
+package com.urlshortener;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
+
+/**
+ * Basic application context test to verify Spring Boot configuration.
+ */
+@SpringBootTest
+@ActiveProfiles("test")
+class UrlShortenerApplicationTests {
+
+    @Test
+    void contextLoads() {
+        // This test verifies that the Spring application context loads successfully
+    }
+}
